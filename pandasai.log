@@ -1,0 +1,671 @@
+2023-07-26 14:20:00 [INFO] Question: 请将这个表格返回成为markdown格式表格
+2023-07-26 14:20:00 [INFO] Running PandasAI with openai LLM...
+2023-07-26 14:20:00 [INFO] Prompt ID: b73dc080-88cf-43a6-aa30-72dc9eca7f69
+2023-07-26 14:20:28 [INFO] 
+                        Code generated:
+                        ```
+                        import pandas as pd
+
+# Create the dataframe
+data = {'id': [5, 9, 4, 8, 6],
+        'tag': ['医疗质量', '医疗质量', '医疗质量', '医疗质量', '医疗质量'],
+        'name': ['出院患者四级手术比例', '出院患者微创手术占比', '手术患者并发症发生率', 'I类切口手术部位感染率', '出院患者手术占比'],
+        'year': [2021, 2021, 2021, 2021, 2021],
+        'IQR': [0.43, 13.66, 0.04, 27.71, 18.69],
+        'full_mark': [25, 1.11, 45, 40, 1.7],
+        'unit': ['%', '%', '%', '%', '%'],
+        'Key Data': ['', '', '', '', '']}
+
+df = pd.DataFrame(data)
+
+# Convert the dataframe to markdown format
+markdown_table = df.to_markdown()
+
+print(markdown_table)
+                        ```
+                    
+2023-07-26 14:20:28 [INFO] 
+Code running:
+```
+data = {'id': [5, 9, 4, 8, 6], 'tag': ['医疗质量', '医疗质量', '医疗质量', '医疗质量', '医疗质量'], 'name': ['出院患者四级手术比例', '出院患者微创手术占比', '手术患者并发症发生率', 'I类切口手术部位感染率', '出院患者手术占比'], 'year': [2021, 2021, 2021, 2021, 2021], 'IQR': [0.43, 13.66, 0.04, 27.71, 18.69], 'full_mark': [25, 1.11, 45, 40, 1.7], 'unit': ['%', '%', '%', '%', '%'], 'Key Data': ['', '', '', '', '']}
+markdown_table = df.to_markdown()
+print(markdown_table)
+```
+2023-07-26 14:20:28 [WARNING] Error executing code (count: 0)
+2023-07-26 14:20:47 [INFO] Question: 请将这个表格返回成为markdown格式表格
+2023-07-26 14:20:47 [INFO] Running PandasAI with openai LLM...
+2023-07-26 14:20:47 [INFO] Prompt ID: 772636b4-134a-4c1e-8162-f61acfa0718f
+2023-07-26 14:20:47 [INFO] Using cached response
+2023-07-26 14:20:47 [INFO] 
+Code running:
+```
+data = {'id': [5, 9, 4, 8, 6], 'tag': ['医疗质量', '医疗质量', '医疗质量', '医疗质量', '医疗质量'], 'name': ['出院患者四级手术比例', '出院患者微创手术占比', '手术患者并发症发生率', 'I类切口手术部位感染率', '出院患者手术占比'], 'year': [2021, 2021, 2021, 2021, 2021], 'IQR': [0.43, 13.66, 0.04, 27.71, 18.69], 'full_mark': [25, 1.11, 45, 40, 1.7], 'unit': ['%', '%', '%', '%', '%'], 'Key Data': ['', '', '', '', '']}
+markdown_table = df.to_markdown()
+print(markdown_table)
+```
+2023-07-26 14:20:47 [WARNING] Error executing code (count: 0)
+2023-07-26 14:20:48 [WARNING] Error executing code (count: 1)
+2023-07-26 14:21:16 [WARNING] Error executing code (count: 2)
+2023-07-26 14:21:16 [WARNING] Error executing code (count: 1)
+2023-07-26 14:21:35 [INFO] Answer: 
+2023-07-26 14:21:35 [INFO] Executed in: 94.81321811676025s
+2023-07-26 14:21:41 [WARNING] Error executing code (count: 2)
+2023-07-26 14:22:06 [INFO] Answer: 
+2023-07-26 14:22:06 [INFO] Executed in: 79.2825219631195s
+2023-07-26 14:31:12 [INFO] Question: 请将这个表格返回成为markdown格式表格
+2023-07-26 14:31:12 [INFO] Running PandasAI with openai LLM...
+2023-07-26 14:31:12 [INFO] Prompt ID: 1430e376-c061-49e1-8459-3e2f3d02792d
+2023-07-26 14:31:12 [INFO] Using cached response
+2023-07-26 14:31:12 [INFO] 
+Code running:
+```
+data = {'id': [5, 9, 4, 8, 6], 'tag': ['医疗质量', '医疗质量', '医疗质量', '医疗质量', '医疗质量'], 'name': ['出院患者四级手术比例', '出院患者微创手术占比', '手术患者并发症发生率', 'I类切口手术部位感染率', '出院患者手术占比'], 'year': [2021, 2021, 2021, 2021, 2021], 'IQR': [0.43, 13.66, 0.04, 27.71, 18.69], 'full_mark': [25, 1.11, 45, 40, 1.7], 'unit': ['%', '%', '%', '%', '%'], 'Key Data': ['', '', '', '', '']}
+markdown_table = df.to_markdown()
+print(markdown_table)
+```
+2023-07-26 14:31:12 [WARNING] Error executing code (count: 0)
+2023-07-26 14:31:12 [WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ProxyError('Cannot connect to proxy.', RemoteDisconnected('Remote end closed connection without response'))': /v1/chat/completions
+2023-07-26 14:31:12 [WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ProxyError('Cannot connect to proxy.', RemoteDisconnected('Remote end closed connection without response'))': /v1/chat/completions
+2023-07-26 14:34:32 [INFO] Question: Which are the 5 happiest countries?
+2023-07-26 14:34:32 [INFO] Running PandasAI with openai LLM...
+2023-07-26 14:34:32 [INFO] Prompt ID: 24f0c440-14a3-4217-817e-19b2345d7dbe
+2023-07-26 14:34:32 [WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ProxyError('Cannot connect to proxy.', RemoteDisconnected('Remote end closed connection without response'))': /v1/chat/completions
+2023-07-26 14:34:32 [WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ProxyError('Cannot connect to proxy.', RemoteDisconnected('Remote end closed connection without response'))': /v1/chat/completions
+2023-07-26 14:45:32 [INFO] Question: Which are the 5 happiest countries?
+2023-07-26 14:45:32 [INFO] Running PandasAI with openai LLM...
+2023-07-26 14:45:32 [INFO] Prompt ID: 7858766b-b2ba-4c0c-a419-a5ada2284412
+2023-07-26 14:45:32 [WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ProxyError('Cannot connect to proxy.', RemoteDisconnected('Remote end closed connection without response'))': /v1/chat/completions
+2023-07-26 14:45:32 [WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ProxyError('Cannot connect to proxy.', RemoteDisconnected('Remote end closed connection without response'))': /v1/chat/completions
+2023-07-26 14:47:20 [INFO] Question: Which are the 5 happiest countries?
+2023-07-26 14:47:20 [INFO] Running PandasAI with openai LLM...
+2023-07-26 14:47:20 [INFO] Prompt ID: 6b350813-e478-488f-b99d-d9dd35e92a19
+2023-07-26 14:47:20 [WARNING] Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ProxyError('Cannot connect to proxy.', RemoteDisconnected('Remote end closed connection without response'))': /v1/chat/completions
+2023-07-26 14:47:20 [WARNING] Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ProxyError('Cannot connect to proxy.', RemoteDisconnected('Remote end closed connection without response'))': /v1/chat/completions
+2023-07-26 14:47:49 [INFO] Question: Which are the 5 happiest countries?
+2023-07-26 14:47:49 [INFO] Running PandasAI with openai LLM...
+2023-07-26 14:47:49 [INFO] Prompt ID: 35539862-f5fc-4512-89a1-cf524858793d
+2023-07-26 14:47:50 [INFO] error_code=invalid_api_key error_message='Incorrect API key provided: sk-g2a88***************************************m6L0. You can find your API key at https://platform.openai.com/account/api-keys.' error_param=None error_type=invalid_request_error message='OpenAI API error received' stream_error=False
+2023-07-26 14:53:34 [INFO] Question: Which are the 5 happiest countries?
+2023-07-26 14:53:34 [INFO] Running PandasAI with openai LLM...
+2023-07-26 14:53:34 [INFO] Prompt ID: 8fe9508f-4c81-45a7-bdd5-556eaf33fcaa
+2023-07-26 14:53:37 [INFO] 
+                        Code generated:
+                        ```
+                        df.sort_values('happiness_index', ascending=False).head(5)['country']
+                        ```
+                    
+2023-07-26 14:53:37 [INFO] 
+Code running:
+```
+df.sort_values('happiness_index', ascending=False).head(5)['country']
+```
+2023-07-26 14:53:37 [INFO] Answer: 6            Canada
+7         Australia
+1    United Kingdom
+3           Germany
+0     United States
+Name: country, dtype: object
+2023-07-26 14:53:37 [INFO] Executed in: 2.7453837394714355s
+2023-07-26 15:06:09 [INFO] Question: Which are the 5 happiest countries?
+2023-07-26 15:06:09 [INFO] Running PandasAI with openai LLM...
+2023-07-26 15:06:09 [INFO] Prompt ID: 90674aab-4af7-499f-b624-303a4ad48172
+2023-07-26 15:06:09 [INFO] Using cached response
+2023-07-26 15:06:09 [INFO] 
+Code running:
+```
+df.sort_values('happiness_index', ascending=False).head(5)['country']
+```
+2023-07-26 15:06:09 [INFO] Answer: 6            Canada
+7         Australia
+1    United Kingdom
+3           Germany
+0     United States
+Name: country, dtype: object
+2023-07-26 15:06:09 [INFO] Executed in: 0.003969907760620117s
+2023-07-26 15:06:37 [INFO] Question: Which are the 5 happiest countries?
+2023-07-26 15:06:37 [INFO] Running PandasAI with openai LLM...
+2023-07-26 15:06:37 [INFO] Prompt ID: 6f45bd6c-feaf-4b01-af5b-d646e51093f7
+2023-07-26 15:06:37 [INFO] Using cached response
+2023-07-26 15:06:37 [INFO] 
+Code running:
+```
+df.sort_values('happiness_index', ascending=False).head(5)['country']
+```
+2023-07-26 15:06:37 [INFO] Answer: 6            Canada
+7         Australia
+1    United Kingdom
+3           Germany
+0     United States
+Name: country, dtype: object
+2023-07-26 15:06:37 [INFO] Executed in: 0.0039997100830078125s
+2023-07-26 15:07:15 [INFO] Question: Which are the 5 happiest countries?
+2023-07-26 15:07:15 [INFO] Running PandasAI with openai LLM...
+2023-07-26 15:07:15 [INFO] Prompt ID: 73d97d6a-7fac-4605-aae9-bf8d126e6ed0
+2023-07-26 15:07:15 [INFO] Using cached response
+2023-07-26 15:07:15 [INFO] 
+Code running:
+```
+df.sort_values('happiness_index', ascending=False).head(5)['country']
+```
+2023-07-26 15:07:15 [INFO] Answer: 6            Canada
+7         Australia
+1    United Kingdom
+3           Germany
+0     United States
+Name: country, dtype: object
+2023-07-26 15:07:15 [INFO] Executed in: 0.00505375862121582s
+2023-07-26 15:07:15 [INFO] Question: What is the sum of the GDPs of the 2 unhappiest countries?
+2023-07-26 15:07:15 [INFO] Running PandasAI with openai LLM...
+2023-07-26 15:07:15 [INFO] Prompt ID: eb233d71-36a6-4f4f-b5d7-e8a3aeea6ef6
+2023-07-26 15:07:22 [INFO] 
+                        Code generated:
+                        ```
+                        import pandas as pd
+
+data = {'country': ['United States', 'France', 'Germany', 'Italy', 'United Kingdom'],
+        'gdp': [19294482071552, 2411255037952, 2891615567872, 13707586, 2761479435],
+        'happiness_index': [6.94, 6.66, 6.38, 7.16, 7.07]}
+
+df = pd.DataFrame(data)
+
+unhappiest_countries = df.nsmallest(2, 'happiness_index')
+sum_gdp_unhappiest = unhappiest_countries['gdp'].sum()
+
+sum_gdp_unhappiest
+                        ```
+                    
+2023-07-26 15:07:22 [INFO] 
+Code running:
+```
+data = {'country': ['United States', 'France', 'Germany', 'Italy', 'United Kingdom'], 'gdp': [19294482071552, 2411255037952, 2891615567872, 13707586, 2761479435], 'happiness_index': [6.94, 6.66, 6.38, 7.16, 7.07]}
+unhappiest_countries = df.nsmallest(2, 'happiness_index')
+sum_gdp_unhappiest = unhappiest_countries['gdp'].sum()
+sum_gdp_unhappiest
+```
+2023-07-26 15:07:22 [INFO] Answer: 19012600725504
+2023-07-26 15:07:22 [INFO] Executed in: 6.676966667175293s
+2023-07-26 15:08:29 [INFO] Question: Which are the 5 happiest countries?
+2023-07-26 15:08:29 [INFO] Running PandasAI with openai LLM...
+2023-07-26 15:08:29 [INFO] Prompt ID: 72a48baa-a0bc-41b6-bdb1-43a089835dcc
+2023-07-26 15:08:29 [INFO] Using cached response
+2023-07-26 15:08:29 [INFO] 
+Code running:
+```
+df.sort_values('happiness_index', ascending=False).head(5)['country']
+```
+2023-07-26 15:08:29 [INFO] Answer: 6            Canada
+7         Australia
+1    United Kingdom
+3           Germany
+0     United States
+Name: country, dtype: object
+2023-07-26 15:08:29 [INFO] Executed in: 0.003998756408691406s
+2023-07-26 15:08:29 [INFO] Question: What is the sum of the GDPs of the 2 unhappiest countries?
+2023-07-26 15:08:29 [INFO] Running PandasAI with openai LLM...
+2023-07-26 15:08:29 [INFO] Prompt ID: c12bd32e-f84c-4e82-b2c5-f2c67b0494a6
+2023-07-26 15:08:29 [INFO] Using cached response
+2023-07-26 15:08:29 [INFO] 
+Code running:
+```
+data = {'country': ['United States', 'France', 'Germany', 'Italy', 'United Kingdom'], 'gdp': [19294482071552, 2411255037952, 2891615567872, 13707586, 2761479435], 'happiness_index': [6.94, 6.66, 6.38, 7.16, 7.07]}
+unhappiest_countries = df.nsmallest(2, 'happiness_index')
+sum_gdp_unhappiest = unhappiest_countries['gdp'].sum()
+sum_gdp_unhappiest
+```
+2023-07-26 15:08:29 [INFO] Answer: 19012600725504
+2023-07-26 15:08:29 [INFO] Executed in: 0.0049991607666015625s
+2023-07-26 15:08:41 [INFO] Question: Which are the 5 happiest countries?
+2023-07-26 15:08:41 [INFO] Running PandasAI with openai LLM...
+2023-07-26 15:08:41 [INFO] Prompt ID: e24c10da-1012-40c8-a306-e2b138012866
+2023-07-26 15:08:41 [INFO] Using cached response
+2023-07-26 15:08:41 [INFO] 
+Code running:
+```
+df.sort_values('happiness_index', ascending=False).head(5)['country']
+```
+2023-07-26 15:08:41 [INFO] Answer: 6            Canada
+7         Australia
+1    United Kingdom
+3           Germany
+0     United States
+Name: country, dtype: object
+2023-07-26 15:08:41 [INFO] Executed in: 0.004377126693725586s
+2023-07-26 15:08:41 [INFO] Question: What is the sum of the GDPs of the 2 unhappiest countries?
+2023-07-26 15:08:41 [INFO] Running PandasAI with openai LLM...
+2023-07-26 15:08:41 [INFO] Prompt ID: a8a144dc-ed1a-4588-9637-5df238b39785
+2023-07-26 15:08:41 [INFO] Using cached response
+2023-07-26 15:08:41 [INFO] 
+Code running:
+```
+data = {'country': ['United States', 'France', 'Germany', 'Italy', 'United Kingdom'], 'gdp': [19294482071552, 2411255037952, 2891615567872, 13707586, 2761479435], 'happiness_index': [6.94, 6.66, 6.38, 7.16, 7.07]}
+unhappiest_countries = df.nsmallest(2, 'happiness_index')
+sum_gdp_unhappiest = unhappiest_countries['gdp'].sum()
+sum_gdp_unhappiest
+```
+2023-07-26 15:08:41 [INFO] Answer: 19012600725504
+2023-07-26 15:08:41 [INFO] Executed in: 0.004575014114379883s
+2023-07-26 15:09:50 [INFO] Question: Which are the 5 happiest countries?
+2023-07-26 15:09:50 [INFO] Running PandasAI with openai LLM...
+2023-07-26 15:09:50 [INFO] Prompt ID: b7c9e30f-7e13-4199-8ce4-f8a2a6af247b
+2023-07-26 15:09:50 [INFO] Using cached response
+2023-07-26 15:09:50 [INFO] 
+Code running:
+```
+df.sort_values('happiness_index', ascending=False).head(5)['country']
+```
+2023-07-26 15:09:50 [INFO] Answer: 6            Canada
+7         Australia
+1    United Kingdom
+3           Germany
+0     United States
+Name: country, dtype: object
+2023-07-26 15:09:50 [INFO] Executed in: 0.006999492645263672s
+2023-07-26 15:09:50 [INFO] Question: What is the sum of the GDPs of the 2 unhappiest countries?
+2023-07-26 15:09:50 [INFO] Running PandasAI with openai LLM...
+2023-07-26 15:09:50 [INFO] Prompt ID: ab771dc3-af0b-4a35-a58c-c05ec3cc2be6
+2023-07-26 15:09:50 [INFO] Using cached response
+2023-07-26 15:09:50 [INFO] 
+Code running:
+```
+data = {'country': ['United States', 'France', 'Germany', 'Italy', 'United Kingdom'], 'gdp': [19294482071552, 2411255037952, 2891615567872, 13707586, 2761479435], 'happiness_index': [6.94, 6.66, 6.38, 7.16, 7.07]}
+unhappiest_countries = df.nsmallest(2, 'happiness_index')
+sum_gdp_unhappiest = unhappiest_countries['gdp'].sum()
+sum_gdp_unhappiest
+```
+2023-07-26 15:09:50 [INFO] Answer: 19012600725504
+2023-07-26 15:09:50 [INFO] Executed in: 0.008015871047973633s
+2023-07-26 15:16:04 [INFO] Question: Which are the 5 happiest countries?
+2023-07-26 15:16:04 [INFO] Running PandasAI with openai LLM...
+2023-07-26 15:16:04 [INFO] Prompt ID: fa9e5898-d480-4e5e-bfeb-d3dbee4a4285
+2023-07-26 15:16:04 [INFO] Using cached response
+2023-07-26 15:16:04 [INFO] 
+Code running:
+```
+df.sort_values('happiness_index', ascending=False).head(5)['country']
+```
+2023-07-26 15:16:04 [INFO] Answer: 6            Canada
+7         Australia
+1    United Kingdom
+3           Germany
+0     United States
+Name: country, dtype: object
+2023-07-26 15:16:04 [INFO] Executed in: 0.004996299743652344s
+2023-07-26 15:16:04 [INFO] Question: What is the sum of the GDPs of the 2 unhappiest countries?
+2023-07-26 15:16:04 [INFO] Running PandasAI with openai LLM...
+2023-07-26 15:16:04 [INFO] Prompt ID: 1055a205-d3cd-4bc0-817c-510076f1a86c
+2023-07-26 15:16:04 [INFO] Using cached response
+2023-07-26 15:16:04 [INFO] 
+Code running:
+```
+data = {'country': ['United States', 'France', 'Germany', 'Italy', 'United Kingdom'], 'gdp': [19294482071552, 2411255037952, 2891615567872, 13707586, 2761479435], 'happiness_index': [6.94, 6.66, 6.38, 7.16, 7.07]}
+unhappiest_countries = df.nsmallest(2, 'happiness_index')
+sum_gdp_unhappiest = unhappiest_countries['gdp'].sum()
+sum_gdp_unhappiest
+```
+2023-07-26 15:16:04 [INFO] Answer: 19012600725504
+2023-07-26 15:16:04 [INFO] Executed in: 0.004998922348022461s
+2023-07-26 15:16:11 [INFO] Question: Which are the 5 happiest countries?
+2023-07-26 15:16:11 [INFO] Running PandasAI with openai LLM...
+2023-07-26 15:16:11 [INFO] Prompt ID: 5f235cb3-3e79-4bcd-80cd-15cb39b0ed28
+2023-07-26 15:16:11 [INFO] Using cached response
+2023-07-26 15:16:11 [INFO] 
+Code running:
+```
+df.sort_values('happiness_index', ascending=False).head(5)['country']
+```
+2023-07-26 15:16:11 [INFO] Answer: 6            Canada
+7         Australia
+1    United Kingdom
+3           Germany
+0     United States
+Name: country, dtype: object
+2023-07-26 15:16:11 [INFO] Executed in: 0.0030434131622314453s
+2023-07-26 15:16:11 [INFO] Question: What is the sum of the GDPs of the 2 unhappiest countries?
+2023-07-26 15:16:11 [INFO] Running PandasAI with openai LLM...
+2023-07-26 15:16:11 [INFO] Prompt ID: 35cd90cc-8c0f-4522-b5ee-369b5f48178c
+2023-07-26 15:16:11 [INFO] Using cached response
+2023-07-26 15:16:11 [INFO] 
+Code running:
+```
+data = {'country': ['United States', 'France', 'Germany', 'Italy', 'United Kingdom'], 'gdp': [19294482071552, 2411255037952, 2891615567872, 13707586, 2761479435], 'happiness_index': [6.94, 6.66, 6.38, 7.16, 7.07]}
+unhappiest_countries = df.nsmallest(2, 'happiness_index')
+sum_gdp_unhappiest = unhappiest_countries['gdp'].sum()
+sum_gdp_unhappiest
+```
+2023-07-26 15:16:11 [INFO] Answer: 19012600725504
+2023-07-26 15:16:11 [INFO] Executed in: 0.004973649978637695s
+2023-07-26 15:17:05 [INFO] Question: Which are the 5 happiest countries?
+2023-07-26 15:17:05 [INFO] Running PandasAI with openai LLM...
+2023-07-26 15:17:05 [INFO] Prompt ID: 0930e986-36db-4e3a-be8e-99b8c4668fa0
+2023-07-26 15:17:05 [INFO] Using cached response
+2023-07-26 15:17:05 [INFO] 
+Code running:
+```
+df.sort_values('happiness_index', ascending=False).head(5)['country']
+```
+2023-07-26 15:17:05 [INFO] Answer: 6            Canada
+7         Australia
+1    United Kingdom
+3           Germany
+0     United States
+Name: country, dtype: object
+2023-07-26 15:17:05 [INFO] Executed in: 0.005998849868774414s
+2023-07-26 15:17:05 [INFO] Question: What is the sum of the GDPs of the 2 unhappiest countries?
+2023-07-26 15:17:05 [INFO] Running PandasAI with openai LLM...
+2023-07-26 15:17:05 [INFO] Prompt ID: 60063c69-a524-485f-9102-238e67b3d56c
+2023-07-26 15:17:05 [INFO] Using cached response
+2023-07-26 15:17:05 [INFO] 
+Code running:
+```
+data = {'country': ['United States', 'France', 'Germany', 'Italy', 'United Kingdom'], 'gdp': [19294482071552, 2411255037952, 2891615567872, 13707586, 2761479435], 'happiness_index': [6.94, 6.66, 6.38, 7.16, 7.07]}
+unhappiest_countries = df.nsmallest(2, 'happiness_index')
+sum_gdp_unhappiest = unhappiest_countries['gdp'].sum()
+sum_gdp_unhappiest
+```
+2023-07-26 15:17:05 [INFO] Answer: 19012600725504
+2023-07-26 15:17:05 [INFO] Executed in: 0.0039997100830078125s
+2023-07-26 15:17:12 [INFO] Question: Which are the 5 happiest countries?
+2023-07-26 15:17:12 [INFO] Running PandasAI with openai LLM...
+2023-07-26 15:17:12 [INFO] Prompt ID: eb0ba822-b2ec-4a88-8d84-4a285ba44963
+2023-07-26 15:17:12 [INFO] Using cached response
+2023-07-26 15:17:12 [INFO] 
+Code running:
+```
+df.sort_values('happiness_index', ascending=False).head(5)['country']
+```
+2023-07-26 15:17:12 [INFO] Answer: 6            Canada
+7         Australia
+1    United Kingdom
+3           Germany
+0     United States
+Name: country, dtype: object
+2023-07-26 15:17:12 [INFO] Executed in: 0.004012107849121094s
+2023-07-26 15:17:12 [INFO] Question: What is the sum of the GDPs of the 2 unhappiest countries?
+2023-07-26 15:17:12 [INFO] Running PandasAI with openai LLM...
+2023-07-26 15:17:12 [INFO] Prompt ID: 58d40279-531f-478a-9b6a-fb70f619a957
+2023-07-26 15:17:12 [INFO] Using cached response
+2023-07-26 15:17:12 [INFO] 
+Code running:
+```
+data = {'country': ['United States', 'France', 'Germany', 'Italy', 'United Kingdom'], 'gdp': [19294482071552, 2411255037952, 2891615567872, 13707586, 2761479435], 'happiness_index': [6.94, 6.66, 6.38, 7.16, 7.07]}
+unhappiest_countries = df.nsmallest(2, 'happiness_index')
+sum_gdp_unhappiest = unhappiest_countries['gdp'].sum()
+sum_gdp_unhappiest
+```
+2023-07-26 15:17:12 [INFO] Answer: 19012600725504
+2023-07-26 15:17:12 [INFO] Executed in: 0.005991220474243164s
+2023-07-26 15:17:59 [INFO] Question: Which are the 5 happiest countries?
+2023-07-26 15:17:59 [INFO] Running PandasAI with openai LLM...
+2023-07-26 15:17:59 [INFO] Prompt ID: fca158e1-4f0f-4843-bb7e-7f9f417e29c4
+2023-07-26 15:17:59 [INFO] Using cached response
+2023-07-26 15:17:59 [INFO] 
+Code running:
+```
+df.sort_values('happiness_index', ascending=False).head(5)['country']
+```
+2023-07-26 15:17:59 [INFO] Answer: 6            Canada
+7         Australia
+1    United Kingdom
+3           Germany
+0     United States
+Name: country, dtype: object
+2023-07-26 15:17:59 [INFO] Executed in: 0.0035135746002197266s
+2023-07-26 15:18:26 [INFO] Question: Which are the 5 happiest countries?
+2023-07-26 15:18:26 [INFO] Running PandasAI with openai LLM...
+2023-07-26 15:18:26 [INFO] Prompt ID: b7d0ec9c-46ee-491e-947d-3dfff33305fe
+2023-07-26 15:18:26 [INFO] Using cached response
+2023-07-26 15:18:26 [INFO] 
+Code running:
+```
+df.sort_values('happiness_index', ascending=False).head(5)['country']
+```
+2023-07-26 15:18:26 [INFO] Answer: 6            Canada
+7         Australia
+1    United Kingdom
+3           Germany
+0     United States
+Name: country, dtype: object
+2023-07-26 15:18:26 [INFO] Executed in: 0.004998922348022461s
+2023-07-26 15:20:00 [INFO] Question: Which are the 5 happiest countries?
+2023-07-26 15:20:00 [INFO] Running PandasAI with openai LLM...
+2023-07-26 15:20:00 [INFO] Prompt ID: 349fb8c9-7136-411e-821f-0338da39418a
+2023-07-26 15:20:00 [INFO] Using cached response
+2023-07-26 15:20:00 [INFO] 
+Code running:
+```
+df.sort_values('happiness_index', ascending=False).head(5)['country']
+```
+2023-07-26 15:20:00 [INFO] Answer: 6            Canada
+7         Australia
+1    United Kingdom
+3           Germany
+0     United States
+Name: country, dtype: object
+2023-07-26 15:20:00 [INFO] Executed in: 0.008005619049072266s
+2023-07-26 15:20:39 [INFO] Question: 那五个国家的统计数据最幸福？
+2023-07-26 15:20:39 [INFO] Running PandasAI with openai LLM...
+2023-07-26 15:20:39 [INFO] Prompt ID: a740d55f-dc0f-49b6-8c17-a63fa158ed46
+2023-07-26 15:20:43 [INFO] 
+                        Code generated:
+                        ```
+                        df.sort_values(by='happiness_index', ascending=False).head(5)
+                        ```
+                    
+2023-07-26 15:20:43 [INFO] 
+Code running:
+```
+df.sort_values(by='happiness_index', ascending=False).head(5)
+```
+2023-07-26 15:20:43 [INFO] Answer:           country             gdp  happiness_index
+6          Canada   1607402389504             7.23
+7       Australia   1490967855104             7.22
+1  United Kingdom   2891615567872             7.16
+3         Germany   3435817336832             7.07
+0   United States  19294482071552             6.94
+2023-07-26 15:20:43 [INFO] Executed in: 3.671083688735962s
+2023-07-26 15:21:18 [INFO] Question: Which are the 5 happiest countries?
+2023-07-26 15:21:18 [INFO] Running PandasAI with openai LLM...
+2023-07-26 15:21:18 [INFO] Prompt ID: 4c05a227-4c46-4eaf-a2e1-5dea99a72fef
+2023-07-26 15:21:18 [INFO] Using cached response
+2023-07-26 15:21:18 [INFO] 
+Code running:
+```
+df.sort_values('happiness_index', ascending=False).head(5)['country']
+```
+2023-07-26 15:21:18 [INFO] Answer: 6            Canada
+7         Australia
+1    United Kingdom
+3           Germany
+0     United States
+Name: country, dtype: object
+2023-07-26 15:21:18 [INFO] Executed in: 0.004552125930786133s
+2023-07-26 15:21:44 [INFO] Question: What is the sum of the GDPs of the 2 unhappiest countries?
+2023-07-26 15:21:44 [INFO] Running PandasAI with openai LLM...
+2023-07-26 15:21:44 [INFO] Prompt ID: a4955da2-02f9-4e54-83a6-6abc48de97ea
+2023-07-26 15:21:44 [INFO] Using cached response
+2023-07-26 15:21:44 [INFO] 
+Code running:
+```
+data = {'country': ['United States', 'France', 'Germany', 'Italy', 'United Kingdom'], 'gdp': [19294482071552, 2411255037952, 2891615567872, 13707586, 2761479435], 'happiness_index': [6.94, 6.66, 6.38, 7.16, 7.07]}
+unhappiest_countries = df.nsmallest(2, 'happiness_index')
+sum_gdp_unhappiest = unhappiest_countries['gdp'].sum()
+sum_gdp_unhappiest
+```
+2023-07-26 15:21:44 [INFO] Answer: 19012600725504
+2023-07-26 15:21:44 [INFO] Executed in: 0.0060236454010009766s
+2023-07-26 15:22:23 [INFO] Question: Plot the histogram of countries showing for each the gdp, using different colors for each bar
+2023-07-26 15:22:23 [INFO] Running PandasAI with openai LLM...
+2023-07-26 15:22:23 [INFO] Prompt ID: c3e7bc45-cbe2-4f97-b8a5-22b62e963d1d
+2023-07-26 15:22:27 [INFO] 
+                        Code generated:
+                        ```
+                        import matplotlib.pyplot as plt
+
+# Plotting the histogram
+plt.bar(df['country'], df['gdp'], color=['red', 'blue', 'green', 'yellow', 'orange'])
+
+# Adding labels and title
+plt.xlabel('Country')
+plt.ylabel('GDP')
+plt.title('GDP of Countries')
+
+# Displaying the plot
+plt.show()
+                        ```
+                    
+2023-07-26 15:22:27 [INFO] 
+Code running:
+```
+plt.bar(df['country'], df['gdp'], color=['red', 'blue', 'green', 'yellow', 'orange'])
+plt.xlabel('Country')
+plt.ylabel('GDP')
+plt.title('GDP of Countries')
+plt.show()
+plt.close('all')
+```
+2023-07-26 15:22:30 [INFO] generated new fontManager
+2023-07-26 15:22:37 [INFO] Answer: None
+2023-07-26 15:22:37 [INFO] Executed in: 13.324753999710083s
+2023-07-26 15:29:37 [INFO] Question: 将表格返回成Markdown格式
+2023-07-26 15:29:37 [INFO] Running PandasAI with openai LLM...
+2023-07-26 15:29:37 [INFO] Prompt ID: a9c7955e-dded-4491-a29f-9ef7a06e0484
+2023-07-26 15:29:54 [INFO] 
+                        Code generated:
+                        ```
+                        import pandas as pd
+
+# Create the dataframe
+data = {'country': ['France', 'United Kingdom', 'Germany', 'Italy', 'United States'],
+        'gdp': [3435817336832, 19294482071552, 1372226968, 4501171630, 2158061035],
+        'happiness_index': [6.38, 7.16, 7.07, 6.94, 6.66]}
+
+df = pd.DataFrame(data)
+
+# Convert the dataframe to markdown
+markdown_table = df.to_markdown()
+
+print(markdown_table)
+                        ```
+                    
+2023-07-26 15:29:54 [INFO] 
+Code running:
+```
+data = {'country': ['France', 'United Kingdom', 'Germany', 'Italy', 'United States'], 'gdp': [3435817336832, 19294482071552, 1372226968, 4501171630, 2158061035], 'happiness_index': [6.38, 7.16, 7.07, 6.94, 6.66]}
+markdown_table = df.to_markdown()
+print(markdown_table)
+```
+2023-07-26 15:29:54 [WARNING] Error executing code (count: 0)
+2023-07-26 15:30:32 [INFO] Question: Plot the histogram of countries showing for each the gdp, using different colors for each bar
+2023-07-26 15:30:32 [INFO] Running PandasAI with openai LLM...
+2023-07-26 15:30:32 [INFO] Prompt ID: 7bdd2875-c523-4556-97c3-b6e05b5ff1bd
+2023-07-26 15:30:32 [INFO] Using cached response
+2023-07-26 15:30:32 [INFO] 
+Code running:
+```
+plt.bar(df['country'], df['gdp'], color=['red', 'blue', 'green', 'yellow', 'orange'])
+plt.xlabel('Country')
+plt.ylabel('GDP')
+plt.title('GDP of Countries')
+plt.show()
+plt.close('all')
+```
+2023-07-26 15:30:41 [INFO] Answer: None
+2023-07-26 15:30:41 [INFO] Executed in: 8.987101793289185s
+2023-07-26 15:32:37 [INFO] Question: Convert the table to Markdown format.
+2023-07-26 15:32:37 [INFO] Running PandasAI with openai LLM...
+2023-07-26 15:32:37 [INFO] Prompt ID: b55aadbf-129b-477e-91c0-0cc34244fe34
+2023-07-26 15:32:39 [INFO] 
+                        Code generated:
+                        ```
+                        df.to_markdown()
+                        ```
+                    
+2023-07-26 15:32:39 [INFO] 
+Code running:
+```
+df.to_markdown()
+```
+2023-07-26 15:32:39 [WARNING] Error executing code (count: 0)
+2023-07-26 15:32:40 [WARNING] Error executing code (count: 1)
+2023-07-26 15:32:41 [WARNING] Error executing code (count: 2)
+2023-07-26 15:32:42 [INFO] Answer: 
+2023-07-26 15:32:42 [INFO] Executed in: 5.359570503234863s
+2023-07-26 15:33:18 [INFO] Question: Convert the table to Markdown format.
+2023-07-26 15:33:18 [INFO] Running PandasAI with openai LLM...
+2023-07-26 15:33:18 [INFO] Prompt ID: dd3d59a3-9f7b-4d0d-8efa-627bb59c904a
+2023-07-26 15:33:18 [INFO] Using cached response
+2023-07-26 15:33:18 [INFO] 
+Code running:
+```
+df.to_markdown()
+```
+2023-07-26 15:33:18 [WARNING] Error executing code (count: 0)
+2023-07-26 15:33:49 [INFO] Question: Which are the 5 happiest countries?
+2023-07-26 15:33:49 [INFO] Running PandasAI with openai LLM...
+2023-07-26 15:33:49 [INFO] Prompt ID: ee0a1c97-242d-4a69-8bd8-265e4dc69381
+2023-07-26 15:33:49 [INFO] Using cached response
+2023-07-26 15:33:49 [INFO] 
+Code running:
+```
+df.sort_values('happiness_index', ascending=False).head(5)['country']
+```
+2023-07-26 15:33:49 [INFO] Answer: 6            Canada
+7         Australia
+1    United Kingdom
+3           Germany
+0     United States
+Name: country, dtype: object
+2023-07-26 15:33:49 [INFO] Executed in: 0.004014253616333008s
+2023-07-26 15:41:16 [INFO] Question: What does the form say?
+2023-07-26 15:41:16 [INFO] Running PandasAI with openai LLM...
+2023-07-26 15:41:16 [INFO] Prompt ID: e5a6c728-5718-47e1-9eea-4e1d39d674a9
+2023-07-26 15:41:27 [INFO] 
+                        Code generated:
+                        ```
+                        import pandas as pd
+
+data = {'country': ['United States', 'Germany', 'United Kingdom', 'Italy', 'France'],
+        'gdp': [2891615567872, 19294482071552, 8888210093, 1745433788416, 3435817336832],
+        'happiness_index': [7.07, 6.38, 7.16, 6.94, 6.66]}
+
+df = pd.DataFrame(data)
+
+print(df)
+                        ```
+                    
+2023-07-26 15:41:27 [INFO] 
+Code running:
+```
+data = {'country': ['United States', 'Germany', 'United Kingdom', 'Italy', 'France'], 'gdp': [2891615567872, 19294482071552, 8888210093, 1745433788416, 3435817336832], 'happiness_index': [7.07, 6.38, 7.16, 6.94, 6.66]}
+print(df)
+```
+2023-07-26 15:41:27 [INFO] Answer:           country             gdp  happiness_index
+0   United States  19294482071552             6.94
+1  United Kingdom   2891615567872             7.16
+2          France   2411255037952             6.66
+3         Germany   3435817336832             7.07
+4           Italy   1745433788416             6.38
+5           Spain   1181205135360             6.40
+6          Canada   1607402389504             7.23
+7       Australia   1490967855104             7.22
+8           Japan   4380756541440             5.87
+9           China  14631844184064             5.12
+2023-07-26 15:41:27 [INFO] Executed in: 11.813045978546143s
+2023-07-26 15:42:20 [INFO] Question: What is the GDP of china?
+2023-07-26 15:42:20 [INFO] Running PandasAI with openai LLM...
+2023-07-26 15:42:20 [INFO] Prompt ID: 79ed29ca-2c95-41af-a86a-d9af2d01b622
+2023-07-26 15:42:24 [INFO] 
+                        Code generated:
+                        ```
+                        gdp_china = df[df['country'] == 'China']['gdp'].values[0]
+print(gdp_china)
+                        ```
+                    
+2023-07-26 15:42:24 [INFO] 
+Code running:
+```
+gdp_china = df[df['country'] == 'China']['gdp'].values[0]
+print(gdp_china)
+```
+2023-07-26 15:42:24 [INFO] Answer: 14631844184064
+2023-07-26 15:42:24 [INFO] Executed in: 3.6462509632110596s
